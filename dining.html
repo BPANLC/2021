@@ -23,12 +23,20 @@ body, html {
   line-height: 0px
 }
   
+.row {
+   display: flex;
+  }
+  
+.column {
+  flex: 50%
+  }
+  
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
   background-image: url("https://images.pexels.com/photos/1060901/pexels-photo-1060901.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  min-height: 90%;
+  min-height: 60%;
 }
 
 .w3-bar .w3-button {
@@ -70,21 +78,26 @@ body, html {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-  <br><br><br>
-    <span class="tight"><p style="font-size:2vw">Business Profesionals of America</p></span>
-    <span class="tight"><p style="font-size:6vw">Dining</p></span><br><br>
-      <span class="tight"><p style="font-size:2vw">Orlando, FL | May 5-9, 2021</p></span>
-    <p><a href="about.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">What is BPA?</a></p>
-
+    <span class="tight"><p style="font-size:15vw">Dining</p></span><br><br>
 </header>
 
 <!-- Blurb Section-->
-<div class="w3-container" style="padding:30px 16px" id="work">
+<div class="w3-container" id="work">
 <br>
+  <p class="w3-center w3-large">What to eat while in Orlando.</p>
 <br>
-  <p class="w3-center w3-large">Join us for a week of competition and fun in Washington D.C hosted by Business Professionals of America. Compete in national contests, network with top business professionals, and explore the sunshine state.</p>
-<br>
-<br>
+ 
+ <!--Features Template-->
+<div class="row floating-box">
+  <div class="column">
+   <h1>WALT DISNEY WORLD</h1>
+  </div>
+  <div class="column">
+    <img class="w3-image w3-round-large" src="https://images.unsplash.com/photo-1528041119984-da3a9f8d04d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1256&q=80" alt="Buildings" alt="Cinderella's Castle" width="40%" height="flex">
+  </div>
+</div>
+  
+  
 <!-- About Section -->
 <div class="w3-container w3-light-gray" style="padding:28px 16px""background-color:black">
   <h1 class="w3-center">THE CONFERENCE</h1>
@@ -97,20 +110,6 @@ body, html {
       <p><a href="https://bpa.org/nlc/" target="_blank" class="w3-button w3-white w3-hover-opacity-off">
         <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
         <br>Explore Tours</a></p>      
-    </div>
-    <div class="w3-quarter">
-      <p><a href="https://bpa.org/nlc/registration/" target="_blank" class="w3-button w3-white w3-hover-opacity-off">
-        <i class="fa fa-clipboard w3-margin-bottom w3-jumbo w3-center"></i>
-        <br>How to Register</a></p>  
-    </div>
-    <div class="w3-quarter">
-        <p><a href="https://bpa.org/nlc/highlights/tours-and-events/tour-options/" target="_blank" class="w3-button w3-white w3-hover-opacity-off">
-        <i class="fa fa-compass w3-margin-bottom w3-jumbo w3-center"></i>
-        <br>Explore Tours</a></p>
-    </div>
-        <p style="padding:15px 16px"><a href="https://bpa.org/nlc/registration/housing-transportation/" target="_blank" class="w3-button w3-white w3-hover-opacity-off">
-        <i class="fa fa-hotel w3-margin-bottom w3-jumbo w3-center"></i>
-        <br>Find Lodging</a></p>
     </div>
   </div>
 </div>
@@ -128,25 +127,6 @@ body, html {
     <div class="w3-col m6">
       <img class="w3-image w3-round-large" src="https://images.unsplash.com/photo-1528041119984-da3a9f8d04d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1256&q=80" alt="Buildings" alt="Cinderella's Castle" width="700" height="394">
     </div>
-  </div>
-</div>
-<!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-padding-64" style="padding:160px">
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">1800+</span>
-    <br>Chapters
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">110+</span>
-    <br>Competative Events
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">5</span>
-    <br>Days
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">1</span>
-    <br>Conference Experience
   </div>
 </div>
 
